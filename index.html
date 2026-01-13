@@ -1,174 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>ART Rápida | Emissão de ART Online – Engenheiro Civil</title>
-
-  <meta name="description" content="Regularize sua obra com ART emitida por engenheiro responsável. Evite embargos, multas e problemas legais. Atendimento via WhatsApp.">
-
-  <link rel="canonical" href="https://charlei660.github.io/ART-r-pida/">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="ART Rápida – Emissão de ART Online">
-  <meta property="og:description" content="Emissão de ART com engenheiro civil habilitado. Regularize sua obra com segurança e respaldo legal.">
-  <meta property="og:url" content="https://charlei660.github.io/ART-r-pida/">
-  <meta property="og:type" content="website">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      color: #222;
-    }
-    section {
-      padding: 40px 20px;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-    }
-    h1, h2, h3 {
-      color: #111;
-    }
-    a.button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 14px 22px;
-      background: #25D366;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-    .bg-light {
-      background: #f7f7f7;
-    }
-    ul, ol {
-      padding-left: 20px;
-    }
-    .whatsapp-fixo {
-      position: fixed;
-      right: 16px;
-      bottom: 16px;
-      background: #25D366;
-      color: #fff;
-      width: 56px;
-      height: 56px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 26px;
-      text-decoration: none;
-      box-shadow: 0 4px 12px rgba(0,0,0,.2);
-    }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Galeria — Empresa de Engenharia</title>
+  <meta name="description" content="Galeria de fotos de obras e serviços. Site institucional." />
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-
-  <!-- HERO -->
-  <section>
+  <header class="site-header">
     <div class="container">
-      <h1>ART sem dor de cabeça</h1>
-      <h2>Regularize sua obra com segurança técnica e legal</h2>
-
-      <p>
-        Regularize sua obra com responsabilidade técnica. Emitimos a ART com engenheiro responsável,
-        garantindo conformidade legal, segurança estrutural e tranquilidade para concluir seu projeto
-        sem riscos de embargo ou multas.
-      </p>
-
-      <a class="button"
-         href="https://wa.me/5514910046005?text=Olá,%20gostaria%20de%20regularizar%20minha%20obra%20e%20solicitar%20uma%20ART.">
-        Solicitar ART no WhatsApp
-      </a>
+      <h1>Nome da Empresa — Galeria</h1>
+      <p>Veja exemplos de obras e projetos.</p>
     </div>
-  </section>
+  </header>
 
-  <!-- RISCOS E BENEFÍCIOS -->
-  <section class="bg-light">
-    <div class="container">
-      <h2>Por que regularizar sua obra?</h2>
+  <main class="container">
+    <section id="gallery" class="gallery-grid" aria-label="Galeria de fotos">
+      <!-- Repetir este bloco para cada foto (aqui eu coloquei 8 exemplos) -->
+      <figure class="gallery-item">
+        <a href="#" class="gallery-link" data-full="images/photo1-large.jpg" data-index="0" aria-label="Abrir foto 1">
+          <picture>
+            <source type="image/webp" srcset="images/photo1-480.webp 480w, images/photo1-800.webp 800w, images/photo1-1200.webp 1200w" sizes="(max-width:600px) 100vw, 33vw">
+            <img loading="lazy" src="images/photo1-800.jpg" srcset="images/photo1-480.jpg 480w, images/photo1-800.jpg 800w, images/photo1-1200.jpg 1200w" sizes="(max-width:600px) 100vw, 33vw" alt="Descrição da foto 1">
+          </picture>
+        </a>
+        <figcaption>Legenda da foto 1</figcaption>
+      </figure>
 
-      <h3>❌ Riscos de não ter ART</h3>
-      <ul>
-        <li>Embargo da obra por falta de responsável técnico</li>
-        <li>Multas e autuações por órgãos fiscalizadores</li>
-        <li>Problemas legais e responsabilização civil</li>
-        <li>Dificuldade de comprovar segurança estrutural</li>
-      </ul>
+      <figure class="gallery-item">
+        <a href="#" class="gallery-link" data-full="images/photo2-large.jpg" data-index="1" aria-label="Abrir foto 2">
+          <picture>
+            <source type="image/webp" srcset="images/photo2-480.webp 480w, images/photo2-800.webp 800w, images/photo2-1200.webp 1200w" sizes="(max-width:600px) 100vw, 33vw">
+            <img loading="lazy" src="images/photo2-800.jpg" srcset="images/photo2-480.jpg 480w, images/photo2-800.jpg 800w, images/photo2-1200.jpg 1200w" sizes="(max-width:600px) 100vw, 33vw" alt="Descrição da foto 2">
+          </picture>
+        </a>
+        <figcaption>Legenda da foto 2</figcaption>
+      </figure>
 
-      <h3>✅ Benefícios de emitir ART</h3>
-      <ul>
-        <li>Responsabilidade técnica formalizada</li>
-        <li>Mais segurança na fundação e estrutura</li>
-        <li>Redução de riscos legais e multas</li>
-        <li>Tranquilidade para vender ou financiar o imóvel</li>
-        <li>Documentação válida para fiscalização</li>
-      </ul>
+      <figure class="gallery-item">
+        <a href="#" class="gallery-link" data-full="images/photo3-large.jpg" data-index="2" aria-label="Abrir foto 3">
+          <picture>
+            <source type="image/webp" srcset="images/photo3-480.webp 480w, images/photo3-800.webp 800w, images/photo3-1200.webp 1200w" sizes="(max-width:600px) 100vw, 33vw">
+            <img loading="lazy" src="images/photo3-800.jpg" srcset="images/photo3-480.jpg 480w, images/photo3-800.jpg 800w, images/photo3-1200.jpg 1200w" sizes="(max-width:600px) 100vw, 33vw" alt="Descrição da foto 3">
+          </picture>
+        </a>
+        <figcaption>Legenda da foto 3</figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <a href="#" class="gallery-link" data-full="images/photo4-large.jpg" data-index="3" aria-label="Abrir foto 4">
+          <picture>
+            <source type="image/webp" srcset="images/photo4-480.webp 480w, images/photo4-800.webp 800w, images/photo4-1200.webp 1200w" sizes="(max-width:600px) 100vw, 33vw">
+            <img loading="lazy" src="images/photo4-800.jpg" srcset="images/photo4-480.jpg 480w, images/photo4-800.jpg 800w, images/photo4-1200.jpg 1200w" sizes="(max-width:600px) 100vw, 33vw" alt="Descrição da foto 4">
+          </picture>
+        </a>
+        <figcaption>Legenda da foto 4</figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <a href="#" class="gallery-link" data-full="images/photo5-large.jpg" data-index="4" aria-label="Abrir foto 5">
+          <picture>
+            <source type="image/webp" srcset="images/photo5-480.webp 480w, images/photo5-800.webp 800w, images/photo5-1200.webp 1200w" sizes="(max-width:600px) 100vw, 33vw">
+            <img loading="lazy" src="images/photo5-800.jpg" srcset="images/photo5-480.jpg 480w, images/photo5-800.jpg 800w, images/photo5-1200.jpg 1200w" sizes="(max-width:600px) 100vw, 33vw" alt="Descrição da foto 5">
+          </picture>
+        </a>
+        <figcaption>Legenda da foto 5</figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <a href="#" class="gallery-link" data-full="images/photo6-large.jpg" data-index="5" aria-label="Abrir foto 6">
+          <picture>
+            <source type="image/webp" srcset="images/photo6-480.webp 480w, images/photo6-800.webp 800w, images/photo6-1200.webp 1200w" sizes="(max-width:600px) 100vw, 33vw">
+            <img loading="lazy" src="images/photo6-800.jpg" srcset="images/photo6-480.jpg 480w, images/photo6-800.jpg 800w, images/photo6-1200.jpg 1200w" sizes="(max-width:600px) 100vw, 33vw" alt="Descrição da foto 6">
+          </picture>
+        </a>
+        <figcaption>Legenda da foto 6</figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <a href="#" class="gallery-link" data-full="images/photo7-large.jpg" data-index="6" aria-label="Abrir foto 7">
+          <picture>
+            <source type="image/webp" srcset="images/photo7-480.webp 480w, images/photo7-800.webp 800w, images/photo7-1200.webp 1200w" sizes="(max-width:600px) 100vw, 33vw">
+            <img loading="lazy" src="images/photo7-800.jpg" srcset="images/photo7-480.jpg 480w, images/photo7-800.jpg 800w, images/photo7-1200.jpg 1200w" sizes="(max-width:600px) 100vw, 33vw" alt="Descrição da foto 7">
+          </picture>
+        </a>
+        <figcaption>Legenda da foto 7</figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <a href="#" class="gallery-link" data-full="images/photo8-large.jpg" data-index="7" aria-label="Abrir foto 8">
+          <picture>
+            <source type="image/webp" srcset="images/photo8-480.webp 480w, images/photo8-800.webp 800w, images/photo8-1200.webp 1200w" sizes="(max-width:600px) 100vw, 33vw">
+            <img loading="lazy" src="images/photo8-800.jpg" srcset="images/photo8-480.jpg 480w, images/photo8-800.jpg 800w, images/photo8-1200.jpg 1200w" sizes="(max-width:600px) 100vw, 33vw" alt="Descrição da foto 8">
+          </picture>
+        </a>
+        <figcaption>Legenda da foto 8</figcaption>
+      </figure>
+
+    </section>
+  </main>
+
+  <!-- Lightbox/modal -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Visualizador de imagem">
+    <button class="lightbox-close" aria-label="Fechar">&times;</button>
+    <button class="lightbox-prev" aria-label="Imagem anterior">&#10094;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+      <p id="lightbox-caption" class="lightbox-caption"></p>
     </div>
-  </section>
+    <button class="lightbox-next" aria-label="Próxima imagem">&#10095;</button>
+  </div>
 
-  <!-- COMO FUNCIONA -->
-  <section>
-    <div class="container">
-      <h2>Como funciona</h2>
-      <ol>
-        <li><strong>Contato:</strong> você chama no WhatsApp e informa o tipo de obra</li>
-        <li><strong>Avaliação técnica:</strong> análise das informações ou vistoria</li>
-        <li><strong>Emissão da ART:</strong> documentação entregue conforme CREA</li>
-      </ol>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="bg-light">
-    <div class="container">
-      <h2>Perguntas frequentes</h2>
-
-      <p><strong>O que é ART?</strong><br>
-      A ART (Anotação de Responsabilidade Técnica) identifica o responsável técnico pela obra,
-      sendo obrigatória em serviços de engenharia.</p>
-
-      <p><strong>Quando é necessária?</strong><br>
-      Em fundações, estruturas, reformas, instalações elétricas e serviços técnicos.</p>
-
-      <p><strong>O que preciso para emitir?</strong><br>
-      Endereço da obra, tipo de serviço e informações básicas. Nós cuidamos de todo o processo.</p>
-    </div>
-  </section>
-
-  <!-- CTA FINAL -->
-  <section>
-    <div class="container" style="text-align:center;">
-      <h2>Regularize sua obra agora</h2>
-      <p>Evite problemas legais e tenha segurança técnica desde o início.</p>
-
-      <a class="button" href="https://wa.me/5514910046005">
-        Falar no WhatsApp
-      </a>
-    </div>
-  </section>
-
-  <!-- BOTÃO FIXO -->
-  <a class="whatsapp-fixo" href="https://wa.me/5514910046005" aria-label="WhatsApp">📲</a>
-
-  <!-- SCHEMA.ORG -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "ART Rápida",
-    "description": "Emissão de ART online com engenheiro civil responsável.",
-    "telephone": "+55-14-9100-46005",
-    "areaServed": "BR",
-    "url": "https://charlei660.github.io/ART-r-pida/"
-  }
-  </script>
-
+  <script src="js/gallery.js" defer></script>
 </body>
 </html>
