@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>LC Engenharia Civil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:#f2f2f2;
+      color:#222;
+    }
+
+    header{
+      background:#222;
+      color:#fff;
+      padding:20px;
+      text-align:center;
+    }
+
+    section{
+      max-width:1100px;
+      margin:auto;
+      padding:20px;
+    }
+
+    h2{
+      text-align:center;
+      margin-bottom:20px;
+    }
+
+    .galeria{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:16px;
+    }
+
+    .item{
+      background:#fff;
+      border-radius:12px;
+      overflow:hidden;
+      cursor:pointer;
+    }
+
+    .item img{
+      width:100%;
+      display:block;
+      transition:transform .3s;
+    }
+
+    .item:hover img{
+      transform:scale(1.05);
+    }
+
+    .caption{
+      padding:10px;
+      text-align:center;
+      font-size:14px;
+    }
+
+    .lightbox{
+      position:fixed;
+      inset:0;
+      background:rgba(0,0,0,.85);
+      display:none;
+      align-items:center;
+      justify-content:center;
+      z-index:999;
+    }
+
+    .lightbox:target{
+      display:flex;
+    }
+
+    .lightbox img{
+      max-width:90%;
+      max-height:90%;
+      border-radius:8px;
+    }
+
+    .close{
+      position:absolute;
+      top:20px;
+      right:25px;
+      font-size:30px;
+      color:#fff;
+      text-decoration:none;
+    }
+
+    footer{
+      text-align:center;
+      padding:15px;
+      font-size:14px;
+      color:#555;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>LC Engenharia Civil</h1>
+  <p>Galeria de Obras</p>
+</header>
+
+<section>
+  <h2>Projetos Executados</h2>
+
+  <div class="galeria">
+    <a href="#img1" class="item">
+      <img src="estrutura.jpg" alt="Estrutura da obra">
+      <div class="caption">Estrutura da obra</div>
+    </a>
+
+    <a href="#img2" class="item">
+      <img src="fundacao.jpg" alt="Fundação da obra">
+      <div class="caption">Fundação da obra</div>
+    </a>
+
+    <a href="#img3" class="item">
+      <img src="pronta.jpg" alt="Obra finalizada">
+      <div class="caption">Obra finalizada</div>
+    </a>
+
+    <a href="#img4" class="item">
+      <img src="hero.jpg" alt="Projeto em destaque">
+      <div class="caption">Projeto em destaque</div>
+    </a>
+  </div>
+</section>
+
+<footer>
+  © LC Engenharia Civil
+</footer>
+
+<!-- Lightbox -->
+<div id="img1" class="lightbox">
+  <a href="#" class="close">&times;</a>
+  <img src="estrutura.jpg">
+</div>
+
+<div id="img2" class="lightbox">
+  <a href="#" class="close">&times;</a>
+  <img src="fundacao.jpg">
+</div>
+
+<div id="img3" class="lightbox">
+  <a href="#" class="close">&times;</a>
+  <img src="pronta.jpg">
+</div>
+
+<div id="img4" class="lightbox">
+  <a href="#" class="close">&times;</a>
+  <img src
