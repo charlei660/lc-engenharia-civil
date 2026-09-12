@@ -1,0 +1,8 @@
+# Robots.txt - LC Engenharia Civil
+# Simples e seguro para SEO
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://charlei660.github.io/lc-engenharia-civil/sitemap.xml
