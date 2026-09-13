@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <!-- Página inicial -->
+
   <url>
-    <loc>https://charlei660.github.io/lc-engenharia-civil/</loc>
-    <lastmod>2026-09-12</lastmod>
+    <loc>https://lcengenhariacivil.com.br/</loc>
+    <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
