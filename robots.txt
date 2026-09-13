@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://charlei660.github.io/lc-engenharia-civil/sitemap.xml
+Sitemap: https://lcengenhariacivil.com.br/sitemap.xml
